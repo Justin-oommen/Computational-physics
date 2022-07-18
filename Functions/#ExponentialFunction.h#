@@ -1,0 +1,9 @@
+//ExponentialFunction.cc
+
+#include<iostream>
+#include "ExponentialFunction.h"
+
+ExponentialFunction::ExponentialFunction(const std::string& name, double value) : Function(name){
+  value_= value;
+}
+double ExponentialFunction::value(double x) con
